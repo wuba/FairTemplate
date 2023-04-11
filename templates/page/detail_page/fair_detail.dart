@@ -22,7 +22,7 @@ class _FairDetailState extends State<FairDetail> {
   void onUnload() {}
 
   void requestData() {
-    FairNet().request({
+    FairNet().requestRemoteData({
       'pageName': '#FairKey#',
       'method': 'GET',
       'url':
